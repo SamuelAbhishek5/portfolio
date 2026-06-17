@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Abhishek M - Data Science & AI/ML Engineer Portfolio. GATE 2026 AIR 3600 | LTIMindtree GET Offer">
+    <meta name="keywords" content="Data Science, AI, ML, Python, Portfolio">
+    <meta property="og:title" content="Abhishek M - Data Science & AI/ML Engineer">
+    <meta property="og:description" content="Building AI-powered solutions with expertise in machine learning and backend systems">
+    <title>Abhishek M - Data Science & AI/ML Engineer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #020617;
+                color: #f1f5f9;
+            }
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #2563eb, #06b6d4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .project-card {
+            transition: all 0.3s ease;
+        }
+        
+        .project-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        @media (prefers-color-scheme: dark) {
+            .project-card:hover {
+                box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+            }
+        }
+        
+        .smooth-scroll {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-white dark:bg-slate-950 text-slate-900 dark:text-slate-50">
+    
+    <!-- Navigation -->
+    <nav class="sticky top-0 z-50 bg-white/80 dark:bg-slate-950/80 backdrop-blur-sm border-b border-slate-200 dark:border-slate-800">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold gradient-text">AM</div>
+            <div class="flex gap-8">
+                <a href="#projects" class="text-sm font-medium hover:text-blue-600 dark:hover:text-blue-400 transition">Projects</a>
+                <a href="#skills" class="text-sm font-medium hover:text-blue-600 dark:hover:text-blue-400 transition">Skills</a>
+                <a href="#contact" class="text-sm font-medium hover:text-blue-600 dark:hover:text-blue-400 transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="max-w-6xl mx-auto px-6 py-20 md:py-32">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <div class="inline-block mb-4 px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 rounded-full text-sm font-medium">
+                    Data Science & AI/ML Engineer
+                </div>
+                <h1 class="text-5xl md:text-6xl font-bold mb-6 leading-tight">Abhishek M</h1>
+                <p class="text-xl text-slate-600 dark:text-slate-400 mb-6 leading-relaxed">
+                    Building AI-powered solutions with a focus on machine learning, backend systems, and emerging AI technologies. GATE 2026 AIR 3600 | LTIMindtree GET Offer.
+                </p>
+                <div class="flex gap-4 flex-wrap">
+                    <a href="mailto:1rn22cd002.abhishek@gmail.com" class="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition">
+                        Get In Touch →
+                    </a>
+                    <a href="tel:+916360290466" class="inline-flex items-center gap-2 border border-slate-300 dark:border-slate-700 px-6 py-3 rounded-lg font-medium hover:bg-slate-50 dark:hover:bg-slate-900 transition">
+                        📞 Call
+                    </a>
+                </div>
+            </div>
+            <div class="relative">
+                <div class="absolute inset-0 bg-gradient-to-r from-blue-400 to-cyan-400 rounded-3xl blur-3xl opacity-20"></div>
+                <div class="relative bg-gradient-to-br from-blue-50 to-cyan-50 dark:from-slate-800 dark:to-slate-900 rounded-3xl p-12 border border-slate-200 dark:border-slate-700">
+                    <div class="space-y-4 text-sm">
+                        <div class="flex justify-between">
+                            <span class="text-slate-600 dark:text-slate-400">GATE Score</span>
+                            <span class="font-bold">466 (AIR 3600)</span>
+                        </div>
+                        <div class="h-1 bg-slate-200 dark:bg-slate-700 rounded-full overflow-hidden">
+                            <div class="h-full w-[90%] bg-gradient-to-r from-blue-500 to-cyan-500"></div>
+                        </div>
+                        <div class="pt-4 border-t border-slate-200 dark:border-slate-700">
+                            <p class="text-slate-600 dark:text-slate-400 mb-2">Education</p>
+                            <p class="font-bold">B.E. Data Science, RNSIT</p>
+                            <p class="text-xs text-slate-500 dark:text-slate-400">CGPA: 8.18 | May 2026</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="max-w-6xl mx-auto px-6 py-20">
+        <h2 class="text-4xl font-bold mb-4">Featured Projects</h2>
+        <p class="text-slate-600 dark:text-slate-400 mb-12 max-w-2xl">
+            From emotion-driven music generation to ML prediction systems, here are my key projects showcasing full-stack development and AI expertise.
+        </p>
+        
+        <div class="grid gap-8">
+            <!-- Project 1 -->
+            <div class="project-card bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-8">
+                <div class="flex justify-between items-start mb-4">
+                    <div>
+                        <h3 class="text-2xl font-bold mb-2">MoodSync: AI-Generated Music</h3>
+                        <p class="text-sm text-slate-500 dark:text-slate-400">Apr 2025 – Nov 2025</p>
+                    </div>
+                    <div class="w-12 h-12 rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 opacity-20"></div>
+                </div>
+                <p class="text-slate-700 dark:text-slate-300 mb-6">Emotion-driven AI music generation engine using Meta MusicGen and Gemini API</p>
+                <div class="mb-6">
+                    <h4 class="text-sm font-semibold text-slate-900 dark:text-slate-100 mb-3">Key highlights</h4>
+                    <ul class="space-y-2">
+                        <li class="flex gap-3 text-sm text-slate-600 dark:text-slate-400">
+                            <span class="text-blue-500">•</span>
+                            <span>Backend engine for 60-second audio synthesis with emotion-based generation</span>
+                        </li>
+                        <li class="flex gap-3 text-sm text-slate-600 dark:text-slate-400">
+                            <span class="text-blue-500">•</span>
+                            <span>Prompt orchestration combining rule-based mood logic and LLM enhancement</span>
+                        </li>
+                        <li class="flex gap-3 text-sm text-slate-600 dark:text-slate-400">
+                            <span class="text-blue-500">•</span>
+                            <span>CUDA-aware model inference optimization (FP16/FP32)</span>
+                        </li>
+                        <li class="flex gap-3 text-sm text-slate-600 dark:text-slate-400">
+                            <span class="text-blue-500">•</span>
+                            <span>Production-ready audio post-processing with NumPy and SciPy</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex flex-wrap gap-2">
+                    <span class="px-3 py-1 text-xs font-medium bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded-full">Python</span>
+                    <span class="px-3 py-1 text-xs font-medium bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded-full">PyTorch</span>
+                    <span class="px-3 py-1 text-xs font-medium bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded-full">MusicGen</span>
+                    <span class="px-3 py-1 text-xs font-medium bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded-full">Gemini API</span>
+                    <span class="px-3 py-1 text-xs font-medium bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded-full">CUDA</span>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-8">
+                <div class="flex justify-between items-start mb-4">
+                    <div>
+                        <h3 class="text-2xl font-bold mb-2">Cricket Match Winning Prediction</h3>
+                        <p class="text-sm text-slate-500 dark:text-slate-400">Oct 2024 – Mar 2025</p>
+                    </div>
+                    <div class="w-12 h-12 rounded-lg bg-gradient-to-br from-blue-500 to-cyan-500 opacity-20"></div>
+                </div>
+                <p class="text-slate-700 dark:text-slate-300 mb-6">ML-based T20 match outcome prediction with ensemble learning</p>
+                <div class="mb-6">
+                    <h4 class="text-sm font-semibold text-slate-900 dark:text-slate-100 mb-3">Key highlights</h4>
+                    <ul class="space-y-2">
+                        <li class="flex gap-3 text-sm text-slate-600 dark:text-slate-400">
+                            <span class="text-blue-500">•</span>
+                            <span>Random Forest and ensemble techniques for prediction</span>
+                        </li>
+                        <li class="flex gap-3 text-sm text-slate-600 dark:text-slate-400">
+                            <span class="text-blue-500">•</span>
+                            <span>Feature engineering from IPL datasets (team form, venue stats, live parameters)</span>
+                        </li>
+                        <li class="flex gap-3 text-sm text-slate-600 dark:text-slate-400">
+                            <span class="text-blue-500">•</span>
+                            <span>Achieved 80%+ model accuracy through cross-validation</span>
+                        </li>
+                        <li class="flex gap-3 text-sm text-slate-600 dark:text-slate-400">
+                            <span class="text-blue-500">•</span>
+                            <span>Structured data pipeline for historical and live match data</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex flex-wrap gap-2">
+                    <span class="px-3 py-1 text-xs font-medium bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded-full">Python</span>
+                    <span class="px-3 py-1 text-xs font-medium bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded-full">Scikit-learn</span>
+                    <span class="px-3 py-1 text-xs font-medium bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded-full">Pandas</span>
+                    <span class="px-3 py-1 text-xs font-medium bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded-full">SQL</span>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-8">
+                <div class="flex justify-between items-start mb-4">
+                    <div>
+                        <h3 class="text-2xl font-bold mb-2">Remote Team Collaboration System</h3>
+                        <p class="text-sm text-slate-500 dark:text-slate-400">Apr 2025 – May 2025</p>
+                    </div>
+                    <div class="w-12 h-12 rounded-lg bg-gradient-to-br from-green-500 to-emerald-500 opacity-20"></div>
+                </div>
+                <p class="text-slate-700 dark:text-slate-300 mb-6">Full-stack web collaboration platform with project management</p>
+                <div class="mb-6">
+                    <h4 class="text-sm font-semibold text-slate-900 dark:text-slate-100 mb-3">Key highlights</h4>
+                    <ul class="space-y-2">
+                        <li class="flex gap-3 text-sm text-slate-600 dark:text-slate-400">
+                            <span class="text-blue-500">•</span>
+                            <span>REST APIs for projects and task management</span>
+                        </li>
+                        <li class="flex gap-3 text-sm text-slate-600 dark:text-slate-400">
+                            <span class="text-blue-500">•</span>
+                            <span>MongoDB data models for scalable storage</span>
+                        </li>
+                        <li class="flex gap-3 text-sm text-slate-600 dark:text-slate-400">
+                            <span class="text-blue-500">•</span>
+                            <span>User workflow and deadline management</span>
+                        </li>
+                        <li class="flex gap-3 text-sm text-slate-600 dark:text-slate-400">
+                            <span class="text-blue-500">•</span>
+                            <span>Microservices architecture</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex flex-wrap gap-2">
+                    <span class="px-3 py-1 text-xs font-medium bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded-full">Python</span>
+                    <span class="px-3 py-1 text-xs font-medium bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded-full">Flask</span>
+                    <span class="px-3 py-1 text-xs font-medium bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded-full">MongoDB</span>
+                    <span class="px-3 py-1 text-xs font-medium bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded-full">REST APIs</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="bg-slate-50 dark:bg-slate-900/50 -mx-6 px-6 py-20">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl font-bold mb-4">Technical Skills</h2>
+            <p class="text-slate-600 dark:text-slate-400 mb-12 max-w-2xl">
+                Proficient across multiple domains with deep expertise in Python, ML frameworks, and modern backend technologies.
+            </p>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white dark:bg-slate-800 rounded-xl p-6 border border-slate-200 dark:border-slate-700">
+                    <h3 class="font-bold text-lg mb-4 text-slate-900 dark:text-slate-100">Languages</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 text-sm bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-lg font-medium">Python</span>
+                        <span class="px-3 py-1 text-sm bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-lg font-medium">Java</span>
+                        <span class="px-3 py-1 text-sm bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-lg font-medium">SQL</span>
+                    </div>
+                </div>
+
+                <div class="bg-white dark:bg-slate-800 rounded-xl p-6 border border-slate-200 dark:border-slate-700">
+                    <h3 class="font-bold text-lg mb-4 text-slate-900 dark:text-slate-100">ML & Frameworks</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 text-sm bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-lg font-medium">PyTorch</span>
+                        <span class="px-3 py-1 text-sm bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-lg font-medium">Hugging Face</span>
+                        <span class="px-3 py-1 text-sm bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-lg font-medium">Flask</span>
+                        <span class="px-3 py-1 text-sm bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-lg font-medium">Scikit-learn</span>
+                    </div>
+                </div>
+
+                <div class="bg-white dark:bg-slate-800 rounded-xl p-6 border border-slate-200 dark:border-slate-700">
+                    <h3 class="font-bold text-lg mb-4 text-slate-900 dark:text-slate-100">Tools & Platforms</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 text-sm bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-lg font-medium">Git</span>
+                        <span class="px-3 py-1 text-sm bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-lg font-medium">GitHub</span>
+                        <span class="px-3 py-1 text-sm bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-lg font-medium">Docker</span>
+                        <span class="px-3 py-1 text-sm bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-lg font-medium">Gemini API</span>
+                    </div>
+                </div>
+
+                <div class="bg-white dark:bg-slate-800 rounded-xl p-6 border border-slate-200 dark:border-slate-700">
+                    <h3 class="font-bold text-lg mb-4 text-slate-900 dark:text-slate-100">Databases</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 text-sm bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-lg font-medium">MongoDB</span>
+                        <span class="px-3 py-1 text-sm bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-lg font-medium">PostgreSQL</span>
+                        <span class="px-3 py-1 text-sm bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-lg font-medium">MySQL</span>
+                    </div>
+                </div>
+
+                <div class="bg-white dark:bg-slate-800 rounded-xl p-6 border border-slate-200 dark:border-slate-700">
+                    <h3 class="font-bold text-lg mb-4 text-slate-900 dark:text-slate-100">Core Competencies</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 text-sm bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-lg font-medium">DSA</span>
+                        <span class="px-3 py-1 text-sm bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-lg font-medium">OOP</span>
+                        <span class="px-3 py-1 text-sm bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-lg font-medium">Microservices</span>
+                        <span class="px-3 py-1 text-sm bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-lg font-medium">CI/CD</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section class="max-w-6xl mx-auto px-6 py-20">
+        <h2 class="text-4xl font-bold mb-12">Achievements</h2>
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="bg-gradient-to-br from-blue-500 to-blue-600 text-white rounded-2xl p-8">
+                <p class="text-sm font-semibold opacity-90 mb-2">GATE 2026</p>
+                <h3 class="text-3xl font-bold mb-2">AIR 3600</h3>
+                <p class="text-sm opacity-90">Score: 466 | Data Science & Artificial Intelligence</p>
+            </div>
+            
+            <div class="bg-gradient-to-br from-cyan-500 to-cyan-600 text-white rounded-2xl p-8">
+                <p class="text-sm font-semibold opacity-90 mb-2">LTIMindtree</p>
+                <h3 class="text-3xl font-bold mb-2">GET Offer</h3>
+                <p class="text-sm opacity-90">Graduate Engineer Trainee | Expected 2026</p>
+            </div>
+
+            <div class="bg-gradient-to-br from-purple-500 to-purple-600 text-white rounded-2xl p-8">
+                <p class="text-sm font-semibold opacity-90 mb-2">NPTEL Certifications</p>
+                <h3 class="text-2xl font-bold mb-2">IIT Madras</h3>
+                <p class="text-sm opacity-90">Data Science for Engineers (78/100)<br/>ML Introduction (66/100)</p>
+            </div>
+
+            <div class="bg-gradient-to-br from-emerald-500 to-emerald-600 text-white rounded-2xl p-8">
+                <p class="text-sm font-semibold opacity-90 mb-2">Project Track Record</p>
+                <h3 class="text-2xl font-bold mb-2">5K+ Users</h3>
+                <p class="text-sm opacity-90">MoodSync: AI-Generated Music</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="max-w-6xl mx-auto px-6 py-20 bg-slate-900 text-white rounded-3xl">
+        <div class="text-center">
+            <h2 class="text-4xl font-bold mb-4">Let's Work Together</h2>
+            <p class="text-slate-300 mb-12 max-w-2xl mx-auto">
+                Open to discussing AI/ML projects, backend engineering opportunities, and collaborative ventures.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row justify-center gap-4 mb-12 flex-wrap">
+                <a href="mailto:1rn22cd002.abhishek@gmail.com" class="inline-flex items-center justify-center gap-2 bg-white text-slate-900 px-8 py-4 rounded-lg font-bold hover:bg-slate-100 transition">
+                    ✉️ Email
+                </a>
+                <a href="tel:+916360290466" class="inline-flex items-center justify-center gap-2 border border-slate-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-slate-800 transition">
+                    📞 Call
+                </a>
+            </div>
+
+            <div class="flex justify-center gap-6 text-slate-400 flex-wrap">
+                <div>
+                    <p class="text-sm text-slate-500 mb-1">Email</p>
+                    <p>1rn22cd002.abhishek@gmail.com</p>
+                </div>
+                <div class="w-px bg-slate-700"></div>
+                <div>
+                    <p class="text-sm text-slate-500 mb-1">Phone</p>
+                    <p>+91 6360290466</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="max-w-6xl mx-auto px-6 py-12 text-center text-slate-600 dark:text-slate-400 text-sm">
+        <p>© 2026 Abhishek M. All rights reserved. Built with modern web technologies.</p>
+    </footer>
+</body>
+</html>
